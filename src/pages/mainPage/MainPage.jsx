@@ -1,4 +1,5 @@
 import { Hero } from "./hero/Hero";
+import { MainProjects } from "./mainProjects/MainProjects";
 
 // use border to make layout visible
 // let borderStyle = "border border-danger";
@@ -15,6 +16,7 @@ export function MainPage() {
   return (
     <>
       <Hero />
+      <MainProjects />
     </>
   );
 }

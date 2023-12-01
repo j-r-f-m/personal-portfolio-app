@@ -1,4 +1,4 @@
-import { Box, Grid, Typography, styled, Paper, Container } from "@mui/material";
+import { Box, Grid, Typography, Container } from "@mui/material";
 import { aboutMeEng } from "./HeroText";
 
 export function Hero() {
