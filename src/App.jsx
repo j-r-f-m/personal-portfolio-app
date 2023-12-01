@@ -1,15 +1,24 @@
-import { useState } from "react";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
+import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import Header from "./components/Header";
 
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
+
+/**
+ * Function that structures site
+ * @returns App.jsx
+ */
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1> hello world!</h1>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <Header />
+        <h1>hello world</h1>
+      </ThemeProvider>
     </>
   );
 }
