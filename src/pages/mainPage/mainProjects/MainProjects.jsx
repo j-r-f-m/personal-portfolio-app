@@ -1,25 +1,6 @@
 import { Box, Grid, Typography, Container } from "@mui/material";
 import { Project } from "../../../components/project/Projects";
-import uniqid from "uniqid";
-
-const projectData = [
-  {
-    title: "Verankerungslänge",
-    tools: "Javascript, React.js, MUI, Vite",
-    imgPath: "images/img_bemessungshilfen.png",
-    description:
-      " A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam.",
-    id: uniqid(),
-  },
-  {
-    title: "Mittige Längsdruckkraft",
-    tools: "Javascript, React.js, MUI, Vite",
-    imgPath: "images/img_bemessungshilfen.png",
-    description:
-      " A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam.",
-    id: uniqid(),
-  },
-];
+import { projectData } from "./MainProjectData";
 
 /**
  * Component that holds the three main projects I want to display on the main

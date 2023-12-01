@@ -1,3 +1,4 @@
+import { Contact } from "./contact/Contact";
 import { Hero } from "./hero/Hero";
 import { MainProjects } from "./mainProjects/MainProjects";
 
@@ -17,6 +18,7 @@ export function MainPage() {
     <>
       <Hero />
       <MainProjects />
+      <Contact />
     </>
   );
 }
