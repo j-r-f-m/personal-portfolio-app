@@ -20,7 +20,7 @@ export function Project(props) {
           src={props.imgPath}
         />
       </Grid>
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} md={6} sx={{ mb: 4 }}>
         <Typography variant="h6">Description</Typography>
         <Typography sx={{ mt: 1 }}>
           {" "}
@@ -28,10 +28,10 @@ export function Project(props) {
           calculate the needed anchorage length of a rebar and the amount of
           rebars that can fit in a concrete beam.
         </Typography>
-        <Typography variant="h6" Typography sx={{ mt: 1 }}>
+        <Typography variant="h6" sx={{ mt: 1 }}>
           Used Technologies
         </Typography>
-        <Typography>React.js, Material-UI, Vite</Typography>
+        <Typography>{props.tools}</Typography>
         <Typography sx={{ mt: 1 }}>
           <Link href="#" underline="hover" color="inherit">
             Visit Site
