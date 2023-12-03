@@ -20,7 +20,7 @@ export function Contact() {
           </Grid>
         </Grid> */}
 
-        <Typography variant="h4">Contact</Typography>
+        <Typography variant="h4">Kontakt</Typography>
 
         <Box sx={{ display: "flex", justifyContent: "center", mt: 2 }}>
           <Link

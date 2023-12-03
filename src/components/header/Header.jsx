@@ -38,15 +38,15 @@ export default function Header() {
 
           <Link to="about">
             {" "}
-            <Button color="inherit">About</Button>
+            <Button color="inherit">Über mich</Button>
           </Link>
 
           <Link to="projects">
-            <Button color="inherit">Projects</Button>
+            <Button color="inherit">Projekte</Button>
           </Link>
 
           <Link to="contact">
-            <Button color="inherit">Contact</Button>
+            <Button color="inherit">Kontakt</Button>
           </Link>
         </Toolbar>
       </AppBar>

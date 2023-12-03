@@ -1,4 +1,5 @@
 import { Container, Box, Grid, Typography, Link } from "@mui/material";
+import LinkIcon from "@mui/icons-material/Link";
 
 export function Project(props) {
   return (
@@ -21,18 +22,30 @@ export function Project(props) {
         />
       </Grid>
       <Grid item xs={12} md={6} sx={{ mb: 4 }}>
-        <Typography variant="h6">Description</Typography>
+        <Typography variant="h6">Beschreibung</Typography>
         <Typography sx={{ mt: 1 }}> {props.description}</Typography>
         <Typography variant="h6" sx={{ mt: 1 }}>
-          Used Technologies
+          Tech Stack
         </Typography>
         <Typography>{props.tools}</Typography>
-        <Typography sx={{ mt: 1 }}>
-          <Link href={props.link} underline="hover" color="inherit">
-            Visit Site
+        <Typography sx={{ mt: 1, display: "flex" }}>
+          <Link
+            href={props.link}
+            underline="hover"
+            color="inherit"
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
+            <LinkIcon sx={{ mr: 0.25 }} />
+            Webpage
           </Link>
-          <Link sx={{ ml: 1 }} href="#" underline="hover" color="inherit">
-            View Code
+          <Link
+            sx={{ ml: 1, display: "flex", justifyContent: "center" }}
+            href="#"
+            underline="hover"
+            color="inherit"
+          >
+            <LinkIcon sx={{ mr: 0.25 }} />
+            Github
           </Link>
         </Typography>
       </Grid>
