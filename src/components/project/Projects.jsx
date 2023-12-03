@@ -22,12 +22,7 @@ export function Project(props) {
       </Grid>
       <Grid item xs={12} md={6} sx={{ mb: 4 }}>
         <Typography variant="h6">Description</Typography>
-        <Typography sx={{ mt: 1 }}>
-          {" "}
-          A front end calculation tool for concrete construction. You can
-          calculate the needed anchorage length of a rebar and the amount of
-          rebars that can fit in a concrete beam.
-        </Typography>
+        <Typography sx={{ mt: 1 }}> {props.description}</Typography>
         <Typography variant="h6" sx={{ mt: 1 }}>
           Used Technologies
         </Typography>

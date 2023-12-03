@@ -1,6 +1,7 @@
 import { Contact } from "./contact/Contact";
 import { Hero } from "./hero/Hero";
 import { MainProjects } from "./mainProjects/MainProjects";
+import { Element } from "react-scroll";
 
 // use border to make layout visible
 // let borderStyle = "border border-danger";
@@ -16,9 +17,17 @@ export function MainPage() {
    */
   return (
     <>
-      <Hero />
-      <MainProjects />
-      <Contact />
+      <Element name="about">
+        <Hero />
+      </Element>
+
+      <Element name="projects">
+        <MainProjects />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
     </>
   );
 }
