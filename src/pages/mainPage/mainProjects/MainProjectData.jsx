@@ -8,6 +8,7 @@ const projectData = [
     description:
       " A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam.",
     id: uniqid(),
+    link: "#",
   },
   {
     title: "Mittige Längsdruckkraft",
@@ -16,6 +17,7 @@ const projectData = [
     description:
       "Mittige Längsdruckkraft A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam.",
     id: uniqid(),
+    link: "https://phenomenal-cheesecake-339368.netlify.app/",
   },
 
   {

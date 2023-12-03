@@ -8,6 +8,7 @@ import { projectData } from "./MainProjectData";
  * @returns
  */
 export function MainProjects() {
+  // create section for each project
   const mainProjects = projectData.map((project) => (
     <Project
       key={project.id}
@@ -15,6 +16,7 @@ export function MainProjects() {
       imgPath={project.imgPath}
       tools={project.tools}
       description={project.description}
+      link={project.link}
     />
   ));
 
@@ -26,15 +28,6 @@ export function MainProjects() {
             <Grid item xs={12}>
               <Typography variant="h4">Projects</Typography>
             </Grid>
-            {/*             <Project
-              title={projectData[0].title}
-              imgPath={"images/img_bemessungshilfen.png"}
-              tools={"Javascript, React.js, MUI, Vite"}
-              description={
-                " A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam."
-              }
-            /> */}
-
             {mainProjects}
           </Grid>
           <hr />

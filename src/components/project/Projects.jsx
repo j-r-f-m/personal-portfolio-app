@@ -1,9 +1,9 @@
-import { Box, Grid, Typography, Link } from "@mui/material";
+import { Container, Box, Grid, Typography, Link } from "@mui/material";
 
 export function Project(props) {
   return (
     <>
-      <Grid item xs={12}>
+      <Grid item xs={12} sx={{ mt: 2 }}>
         <Typography variant="h5">{props.title}</Typography>
       </Grid>
       <Grid item xs={12} md={6}>
@@ -28,7 +28,7 @@ export function Project(props) {
         </Typography>
         <Typography>{props.tools}</Typography>
         <Typography sx={{ mt: 1 }}>
-          <Link href="#" underline="hover" color="inherit">
+          <Link href={props.link} underline="hover" color="inherit">
             Visit Site
           </Link>
           <Link sx={{ ml: 1 }} href="#" underline="hover" color="inherit">
