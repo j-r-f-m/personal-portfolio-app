@@ -6,16 +6,16 @@ const projectData = [
     tools: "Javascript, React.js, MUI, Vite",
     imgPath: "images/img_bemessungshilfen.png",
     description:
-      "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Die verwendenten Formeln, so wie die benötigten Beiwerte sind übersichtlich dargestellt. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
+      "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
     id: uniqid(),
     link: "#",
   },
   {
     title: "Mittige Längsdruckkraft",
     tools: "Javascript, React.js, MUI, Vite",
-    imgPath: "images/img_bemessungshilfen.png",
+    imgPath: "images/img_mittig_kraft.png",
     description:
-      " Das Ziel war es eine App zu entwickeln, mit der man die Ersatzverankerungslänge nach EC2 berechnen kann. Mittige Längsdruckkraft A front end calculation tool for concrete construction. You can calculate the needed anchorage length of a rebar and the amount of rebars that can fit in a concrete beam.",
+      "Es lässt sich die benötigte Spaltzugbewehrung bei einer mittig angreifenden Längsdruckkraft berechnen. Dabei wird das Vorgehen aus dem DAfStb-Heft 631 'Hilfsmittel zur Schnittgrößenermittlung und zu besonderen Detailnachweisen bei Stahlbetontragwerken' berücksichtigt.",
     id: uniqid(),
     link: "https://phenomenal-cheesecake-339368.netlify.app/",
   },
@@ -23,9 +23,9 @@ const projectData = [
   {
     title: "Anzahl Bewehrungsstäbe",
     tools: "Javascript, React.js, MUI, Vite",
-    imgPath: "images/img_bemessungshilfen.png",
+    imgPath: "images/img_n_stäbe.png",
     description:
-      "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang verwendet herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
+      "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus 'Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang' verwendet herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
     id: uniqid(),
   },
 ];
