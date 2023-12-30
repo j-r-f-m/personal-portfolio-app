@@ -2,8 +2,8 @@ import uniqid from "uniqid";
 
 const projectData = [
   {
-    title: "Verankerungslänge",
-    tools: "Javascript, React.js, MUI, Vite",
+    title: "Ersatzverankerungslänge",
+    tools: "Javascript, React.js, React-Bootstrap, Vite",
     imgPath: "images/img_bemessungshilfen.png",
     description:
       "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
@@ -45,4 +45,12 @@ export { projectData };
  * einklappbaren Layout-Elementen konnte dies erreicht werden.
  * Die zweite Herausforderung war die Darstellung von Zahlen uns mathematischen
  * Symbolen.",
+ */
+
+/**
+ *  Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach
+ *  EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die 
+ *  einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich
+ *  bei der App um eine Front-End-Applikaiton.",
+
  */
