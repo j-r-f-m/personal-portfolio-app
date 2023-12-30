@@ -34,15 +34,17 @@ export function Project(props) {
             underline="hover"
             color="inherit"
             sx={{ display: "flex", justifyContent: "center" }}
+            target="_blank"
           >
             <LinkIcon sx={{ mr: 0.25 }} />
             Webpage
           </Link>
           <Link
-            sx={{ ml: 1, display: "flex", justifyContent: "center" }}
-            href="#"
+            href={props.linkGithub}
             underline="hover"
             color="inherit"
+            sx={{ ml: 1, display: "flex", justifyContent: "center" }}
+            target="_blank"
           >
             <LinkIcon sx={{ mr: 0.25 }} />
             Github

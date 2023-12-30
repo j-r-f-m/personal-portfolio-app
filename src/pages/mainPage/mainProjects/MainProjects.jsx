@@ -17,6 +17,7 @@ export function MainProjects() {
       tools={project.tools}
       description={project.description}
       link={project.link}
+      linkGithub={project.linkGithub}
     />
   ));
 

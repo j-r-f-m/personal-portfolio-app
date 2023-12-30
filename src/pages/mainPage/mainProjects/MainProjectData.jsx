@@ -8,7 +8,8 @@ const projectData = [
     description:
       "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
     id: uniqid(),
-    link: "#",
+    link: "https://monumental-tiramisu-f22f40.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/lbd-bs-app",
   },
   {
     title: "Mittige Längsdruckkraft",
@@ -18,6 +19,7 @@ const projectData = [
       "Es lässt sich die benötigte Spaltzugbewehrung bei einer mittig angreifenden Längsdruckkraft berechnen. Dabei wird das Vorgehen aus dem DAfStb-Heft 631 'Hilfsmittel zur Schnittgrößenermittlung und zu besonderen Detailnachweisen bei Stahlbetontragwerken' berücksichtigt.",
     id: uniqid(),
     link: "https://phenomenal-cheesecake-339368.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/mittige-laengsdruckkraft",
   },
 
   {
