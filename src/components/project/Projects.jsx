@@ -56,6 +56,7 @@ export function Project(props) {
   );
 }
 
+// Type check props that are passed to the component
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   imgPath: PropTypes.string.isRequired,

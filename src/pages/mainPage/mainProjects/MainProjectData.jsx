@@ -1,5 +1,17 @@
 import uniqid from "uniqid";
 
+/**
+ * Array of project data.
+ * @typedef {Object} ProjectData
+ * @property {string} title - The title of the project.
+ * @property {string} tools - The tools used for the project.
+ * @property {string} imgPath - The image path for the project.
+ * @property {string} description - The description of the project.
+ * @property {string} id - The unique identifier of the project.
+ * @property {string} link - The link to the project.
+ * @property {string} linkGithub - The link to the project's GitHub repository.
+ */
+
 const projectData = [
   {
     title: "Ersatzverankerungslänge",
@@ -29,6 +41,8 @@ const projectData = [
     description:
       "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus 'Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang' verwendet herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
     id: uniqid(),
+    link: "https://voluble-ganache-b17597.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/bewehrung-anzahl-bs-app",
   },
 ];
 
