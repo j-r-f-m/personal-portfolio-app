@@ -1,5 +1,5 @@
 import { Box, Grid, Typography, Container } from "@mui/material";
-import { aboutMeEng, aboutMeGer } from "./HeroText";
+import { aboutMeGer } from "./HeroText";
 
 export function Hero() {
   return (

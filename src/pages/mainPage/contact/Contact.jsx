@@ -1,4 +1,4 @@
-import { Box, Grid, Typography, Container, Link } from "@mui/material";
+import { Box, Typography, Container, Link } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 

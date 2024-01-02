@@ -1,5 +1,6 @@
-import { Container, Box, Grid, Typography, Link } from "@mui/material";
+import { Box, Grid, Typography, Link } from "@mui/material";
 import LinkIcon from "@mui/icons-material/Link";
+import PropTypes from "prop-types";
 
 export function Project(props) {
   return (
@@ -54,3 +55,12 @@ export function Project(props) {
     </>
   );
 }
+
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  imgPath: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tools: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  linkGithub: PropTypes.string.isRequired,
+};
