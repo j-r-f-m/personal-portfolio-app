@@ -39,7 +39,7 @@ const projectData = [
     tools: "Javascript, React.js, MUI, Vite",
     imgPath: "images/img_n_stäbe.png",
     description:
-      "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus 'Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang' verwendet herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
+      "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus 'Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang' verwendet. Herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
     id: uniqid(),
     link: "https://voluble-ganache-b17597.netlify.app/",
     linkGithub: "https://github.com/j-r-f-m/bewehrung-anzahl-bs-app",
