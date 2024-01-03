@@ -1,7 +1,8 @@
 import uniqid from "uniqid";
 
 /**
- * Array of project data.
+ * Array contianing objects with the information belonging to the projects that
+ * are presented.
  * @typedef {Object} ProjectData
  * @property {string} title - The title of the project.
  * @property {string} tools - The tools used for the project.
@@ -47,24 +48,3 @@ const projectData = [
 ];
 
 export { projectData };
-
-/**
- * "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben
- * in einer Lage eines Stahlbetonträgers ermitteln. Ziel war es ein Interface
- * zu entwickeln, welches übersichtlich und wiederverwendbar ist. Es sollte in
- * weiteren Projekten als Vorlage verwendet werden. Dabei gab es zwei
- * grundlegende Herausforderungen. Es musste ein Interface-Layout gefunden
- * werden welches übersichtlich ist, aber auch die Darstellung von
- * unterschiedlichsten Infromationen erlaubt. Durch das verwenden von
- * einklappbaren Layout-Elementen konnte dies erreicht werden.
- * Die zweite Herausforderung war die Darstellung von Zahlen uns mathematischen
- * Symbolen.",
- */
-
-/**
- *  Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach
- *  EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die 
- *  einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich
- *  bei der App um eine Front-End-Applikaiton.",
-
- */

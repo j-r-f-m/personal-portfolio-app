@@ -2,12 +2,11 @@ import { Contact } from "./contact/Contact";
 import { Hero } from "./hero/Hero";
 import { MainProjects } from "./mainProjects/MainProjects";
 import { Element } from "react-scroll";
-
-// use border to make layout visible
-// let borderStyle = "border border-danger";
-
 /**
  * Landing page that conatins the three main content sections.
+ * 1. Hero section with description about me and tech stack
+ * 2. Prjects section with three main projects
+ * 3. Contact information
  * @returns Landing page
  */
 export function MainPage() {
@@ -17,6 +16,8 @@ export function MainPage() {
    */
   return (
     <>
+      {/* The element component serves as a container for a section of your
+      webpage that you want to scroll to */}
       <Element name="about">
         <Hero />
       </Element>

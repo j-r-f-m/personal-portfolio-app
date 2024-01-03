@@ -10,18 +10,7 @@ export function Contact() {
   return (
     <Box sx={{ flexGrow: 1, mt: 4 }}>
       <Container maxWidth="md">
-        {/* <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <Typography variant="h4">Contact</Typography>
-            <Typography align="center" sx={{ mt: 2 }}>
-              {" "}
-              moesch.jonas@protonmail.com
-            </Typography>
-          </Grid>
-        </Grid> */}
-
         <Typography variant="h4">Kontakt</Typography>
-
         <Box sx={{ display: "flex", justifyContent: "center", mt: 2 }}>
           <Link
             sx={{ mr: 1, ml: 1 }}
@@ -42,7 +31,6 @@ export function Contact() {
           {" "}
           moesch.jonas@protonmail.com
         </Typography>
-
         <hr />
       </Container>
     </Box>
