@@ -9,6 +9,11 @@ const darkTheme = createTheme({
   },
 });
 
+/**
+ * Renders the router component for the application. Router.jsx manages the
+ * routing of the application.
+ * @returns {JSX.Element} The router component.
+ */
 const Router = () => {
   const router = createBrowserRouter([
     {
@@ -24,7 +29,7 @@ const Router = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       {/* reduce browser inconsistencies in things like default line heights,
-         margins and font sizes of headings, and so on */}
+                 margins and font sizes of headings, and so on */}
       <CssBaseline />
       <RouterProvider router={router} />{" "}
     </ThemeProvider>
