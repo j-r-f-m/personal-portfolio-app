@@ -29,30 +29,28 @@ export function MainProjects() {
   ));
 
   return (
-    <>
-      <Box sx={{ flexGrow: 1, mt: 4 }}>
-        <Container maxWidth="md">
-          <Grid container spacing={2}>
-            <Grid item xs={12}>
-              <Typography variant="h4">Projekte</Typography>
-            </Grid>
-            {mainProjects}{" "}
-            <Grid item xs={12} sx={{ mb: 3 }}>
-              <LinkMui
-                underline="hover"
-                color="inherit"
-                target="_blank"
-                component={LinkRouter}
-                to="projects"
-              >
-                More Projects
-              </LinkMui>
-            </Grid>
+    <Box sx={{ flexGrow: 1, mt: 4 }}>
+      <Container maxWidth="md">
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <Typography variant="h4">Projekte</Typography>
           </Grid>
+          {mainProjects}{" "}
+          <Grid item xs={12} sx={{ mb: 3 }}>
+            <LinkMui
+              underline="hover"
+              color="inherit"
+              target="_blank"
+              component={LinkRouter}
+              to="projects"
+            >
+              More Projects
+            </LinkMui>
+          </Grid>
+        </Grid>
 
-          <hr />
-        </Container>
-      </Box>{" "}
-    </>
+        <hr />
+      </Container>
+    </Box>
   );
 }
