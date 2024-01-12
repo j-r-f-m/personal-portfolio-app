@@ -1,6 +1,8 @@
 import { Box, Grid, Typography, Container } from "@mui/material";
 import { Project } from "../../components/project/Projects";
 import { moreProjectsData } from "./MoreProjectsData";
+/* import { HeaderMoreProjects } from "../../components/headerMoreProjects/HeaderMoreProjects"; */
+import HeaderMoreProjects from "../../components/headerMoreProjects/HeaderMoreProjects";
 
 export function MoreProjects() {
   // create section for each project
@@ -17,15 +19,18 @@ export function MoreProjects() {
   ));
 
   return (
-    <Box sx={{ flexGrow: 1, mt: 4 }}>
-      <Container maxWidth="md">
-        <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <Typography variant="h4">Projekte</Typography>
+    <>
+      <HeaderMoreProjects />{" "}
+      <Box sx={{ flexGrow: 1, mt: 4 }}>
+        <Container maxWidth="md">
+          <Grid container spacing={2}>
+            <Grid item xs={12} sx={{ mt: 7 }}>
+              <Typography variant="h4">Projekte</Typography>
+            </Grid>
+            {mainProjects}{" "}
           </Grid>
-          {mainProjects}{" "}
-        </Grid>
-      </Container>
-    </Box>
+        </Container>
+      </Box>
+    </>
   );
 }

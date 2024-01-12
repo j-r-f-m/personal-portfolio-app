@@ -40,11 +40,10 @@ export function MainProjects() {
             <LinkMui
               underline="hover"
               color="inherit"
-              target="_blank"
               component={LinkRouter}
               to="projects"
             >
-              More Projects
+              Mehr Projekte
             </LinkMui>
           </Grid>
         </Grid>
