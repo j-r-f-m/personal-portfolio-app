@@ -3,10 +3,8 @@ import {
   Grid,
   Typography,
   Container,
-  Button,
   Link as LinkMui,
 } from "@mui/material";
-import LinkIcon from "@mui/icons-material/Link";
 import { Link as LinkRouter } from "react-router-dom";
 import { Project } from "../../../components/project/Projects";
 import { projectData } from "./MainProjectData";
