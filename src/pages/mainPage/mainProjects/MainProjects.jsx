@@ -1,4 +1,13 @@
-import { Box, Grid, Typography, Container } from "@mui/material";
+import {
+  Box,
+  Grid,
+  Typography,
+  Container,
+  Button,
+  Link as LinkMui,
+} from "@mui/material";
+import LinkIcon from "@mui/icons-material/Link";
+import { Link as LinkRouter } from "react-router-dom";
 import { Project } from "../../../components/project/Projects";
 import { projectData } from "./MainProjectData";
 
@@ -29,8 +38,20 @@ export function MainProjects() {
             <Grid item xs={12}>
               <Typography variant="h4">Projekte</Typography>
             </Grid>
-            {mainProjects}
+            {mainProjects}{" "}
+            <Grid item xs={12} sx={{ mb: 3 }}>
+              <LinkMui
+                underline="hover"
+                color="inherit"
+                target="_blank"
+                component={LinkRouter}
+                to="projects"
+              >
+                More Projects
+              </LinkMui>
+            </Grid>
           </Grid>
+
           <hr />
         </Container>
       </Box>{" "}
