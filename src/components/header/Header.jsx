@@ -6,6 +6,13 @@ import Button from "@mui/material/Button";
 import { useEffect } from "react";
 import { Link, Events, scrollSpy } from "react-scroll";
 
+/**
+ * Renders the header component.
+ * Registers scroll events and updates scrollSpy.
+ * Removes registered events when the component unmounts.
+ *
+ * @returns {JSX.Element} The rendered header component.
+ */
 export default function Header() {
   useEffect(() => {
     // Registering the 'begin' event and logging it to the console when triggered.
