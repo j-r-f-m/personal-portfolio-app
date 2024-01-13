@@ -15,14 +15,14 @@ import uniqid from "uniqid";
 
 const moreProjectsData = [
   {
-    title: "Ersatzverankerungslänge",
-    tools: "Javascript, React.js, React-Bootstrap, Vite",
+    title: "Taschenrechner",
+    tools: "Javascript, html, css",
     imgPath: "images/img_bemessungshilfen.png",
     description:
       "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
     id: uniqid(),
-    link: "https://monumental-tiramisu-f22f40.netlify.app/",
-    linkGithub: "https://github.com/j-r-f-m/lbd-bs-app",
+    link: "https://unique-palmier-41463c.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/odin-calculator",
   },
   {
     title: "Mittige Längsdruckkraft",
