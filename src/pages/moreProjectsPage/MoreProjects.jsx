@@ -20,7 +20,7 @@ export function MoreProjects() {
 
   return (
     <>
-      <HeaderMoreProjects />{" "}
+      <HeaderMoreProjects />
       <Box sx={{ flexGrow: 1, mt: 4 }}>
         <Container maxWidth="md">
           <Grid container spacing={2}>

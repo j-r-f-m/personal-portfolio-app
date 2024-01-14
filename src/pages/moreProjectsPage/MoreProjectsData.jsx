@@ -19,20 +19,20 @@ const moreProjectsData = [
     tools: "Javascript, html, css",
     imgPath: "images/img_bemessungshilfen.png",
     description:
-      "Die Taschenrechner-App ist eine Front-End-Anwendung. Es handelt sich um einen einfach On-Screen Taschenrechner. Es sind die Grundrechenarten Addition, Subtraktion, Multiplikation und Division implementiert. Die App wurde mit Vanilla Javascript, HTML und CSS erstellt. ",
+      "Die Taschenrechner-App ist eine Front-End-Anwendung. Es handelt sich um einen einfach On-Screen Taschenrechner. Es sind die Grundrechenarten Addition, Subtraktion, Multiplikation und Division implementiert. Die App wurde mit Vanilla Javascript, HTML und CSS erstellt.",
     id: uniqid(),
     link: "https://unique-palmier-41463c.netlify.app/",
     linkGithub: "https://github.com/j-r-f-m/odin-calculator",
   },
   {
-    title: "Mittige Längsdruckkraft",
-    tools: "Javascript, React.js, MUI, Vite",
+    title: "To-Do-App",
+    tools: "Javascript, Html, CSS, Webpack",
     imgPath: "images/img_mittig_kraft.png",
     description:
-      "Es lässt sich die benötigte Spaltzugbewehrung bei einer mittig angreifenden Längsdruckkraft berechnen. Dabei wird das Vorgehen aus dem DAfStb-Heft 631 'Hilfsmittel zur Schnittgrößenermittlung und zu besonderen Detailnachweisen bei Stahlbetontragwerken' berücksichtigt.",
+      "Die To-Do-App ist eine einfache Aufgabenverwaltungsanwendung. Die grundlegenden CRUD-Operationen wurden implementiert. Es können Aufgaben erstellt, gelesen, aktualisiert und gelöscht werden. Des Weiteren wird der Lokale-Speicher des Browsers verwendet, um die Aufgaben zu speichern.",
     id: uniqid(),
-    link: "https://phenomenal-cheesecake-339368.netlify.app/",
-    linkGithub: "https://github.com/j-r-f-m/mittige-laengsdruckkraft",
+    link: "https://main--reliable-mousse-ffef69.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/odin-to-do-app",
   },
 
   {
