@@ -42,6 +42,7 @@ export function MainProjects() {
               color="inherit"
               component={LinkRouter}
               to="projects"
+              onClick={() => window.scrollTo(0, 0)}
             >
               Mehr Projekte
             </LinkMui>

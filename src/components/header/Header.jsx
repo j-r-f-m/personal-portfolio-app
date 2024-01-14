@@ -45,7 +45,7 @@ export default function Header() {
 
           <Link to="about">
             {" "}
-            <Button color="inherit">Über mich</Button>
+            <Button color="inherit">Über</Button>
           </Link>
 
           <Link to="projects">

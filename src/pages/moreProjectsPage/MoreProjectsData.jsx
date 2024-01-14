@@ -19,7 +19,7 @@ const moreProjectsData = [
     tools: "Javascript, html, css",
     imgPath: "images/img_bemessungshilfen.png",
     description:
-      "Mit der Verankerungslänge-App lässt sich die Ersatzverankerungslänge nach EC2 berechnen. Das Berechnungsprotokoll dient als Dokumentation. Die einzelnen Rechenschritte können dadruch nachvollzogen werden. Es handelt sich bei der App um eine Front-End-Applikaiton.",
+      "Die Taschenrechner-App ist eine Front-End-Anwendung. Es handelt sich um einen einfach On-Screen Taschenrechner. Es sind die Grundrechenarten Addition, Subtraktion, Multiplikation und Division implementiert. Die App wurde mit Vanilla Javascript, HTML und CSS erstellt. ",
     id: uniqid(),
     link: "https://unique-palmier-41463c.netlify.app/",
     linkGithub: "https://github.com/j-r-f-m/odin-calculator",
