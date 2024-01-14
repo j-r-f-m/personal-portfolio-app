@@ -36,14 +36,14 @@ const moreProjectsData = [
   },
 
   {
-    title: "Anzahl Bewehrungsstäbe",
-    tools: "Javascript, React.js, MUI, Vite",
+    title: "Schiffe-Versenken-App",
+    tools: "Javascript, html, Css, Webpack",
     imgPath: "images/img_n_stäbe.png",
     description:
-      "Mit der App lässt sich die maximale Anzahl von Bewehrungsstäben in einer Lage eines Stahlbetonträgers ermitteln. Es wurde der Ansatz aus 'Bewehren von Stahlbetonbauwerken nach DIN EN 1992-1-1 mit naitonalem Anhang' verwendet. Herausgegeben vom Institut für Stahlbetonbewehrung (ISB) e. V. ",
+      "Mit der Schiffe-Versenken-App kann man eine Runde Schiffe versenken gegen eine einfach KI spielen.",
     id: uniqid(),
-    link: "https://voluble-ganache-b17597.netlify.app/",
-    linkGithub: "https://github.com/j-r-f-m/bewehrung-anzahl-bs-app",
+    link: "https://frabjous-nougat-32666f.netlify.app/",
+    linkGithub: "https://github.com/j-r-f-m/odin-battleship",
   },
 ];
 
