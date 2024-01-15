@@ -29,6 +29,9 @@ export function MoreProjects() {
             </Grid>
             {mainProjects}{" "}
           </Grid>
+          <Box sx={{ mt: 2, mb: 4 }}>
+            <hr />
+          </Box>{" "}
         </Container>
       </Box>
     </>
