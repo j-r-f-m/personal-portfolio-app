@@ -16,7 +16,13 @@ export default function HeaderMoreProjects() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            color="inherit"
+            component={Link}
+            to="/"
+            sx={{ flexGrow: 1, textDecoration: "none" }}
+          >
             Jonas Mösch
           </Typography>
 

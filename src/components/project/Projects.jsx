@@ -2,6 +2,18 @@ import { Box, Grid, Typography, Link } from "@mui/material";
 import LinkIcon from "@mui/icons-material/Link";
 import PropTypes from "prop-types";
 
+/**
+ * Renders a project component.
+ * @param {Object} props - The props object.
+ * @param {string} props.title - The title of the project.
+ * @param {string} props.imgPath - The path to the project image.
+ * @param {string} props.description - The description of the project.
+ * @param {string} props.tools - The tech stack used in the project.
+ * @param {string} props.link - The link to the project webpage.
+ * @param {string} props.linkGithub - The link to the project's GitHub repository.
+ * @returns {JSX.Element} The rendered project component.
+ */
+
 export function Project(props) {
   return (
     <>

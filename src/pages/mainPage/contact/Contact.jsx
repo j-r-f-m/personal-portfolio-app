@@ -16,13 +16,15 @@ export function Contact() {
             sx={{ mr: 1, ml: 1 }}
             href="https://github.com/j-r-f-m"
             color="inherit"
+            target="_blank"
           >
             <GitHubIcon fontSize="large" />
           </Link>
           <Link
             sx={{ mr: 1, ml: 1 }}
-            href="https://www.linkedin.com/in/jonas-m%C3%B6sch-9993152a3/"
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
             color="inherit"
+            target="_blank"
           >
             <LinkedInIcon fontSize="large" />
           </Link>

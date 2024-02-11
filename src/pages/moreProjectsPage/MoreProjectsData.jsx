@@ -17,7 +17,7 @@ const moreProjectsData = [
   {
     title: "Taschenrechner",
     tools: "Javascript, html, css",
-    imgPath: "images/img_bemessungshilfen.png",
+    imgPath: "images/img_calc.png",
     description:
       "Die Taschenrechner-App ist eine Front-End-Anwendung. Es handelt sich um einen einfach On-Screen Taschenrechner. Es sind die Grundrechenarten Addition, Subtraktion, Multiplikation und Division implementiert. Die App wurde mit Vanilla Javascript, HTML und CSS erstellt.",
     id: uniqid(),
@@ -27,7 +27,7 @@ const moreProjectsData = [
   {
     title: "To-Do-App",
     tools: "Javascript, Html, CSS, Webpack",
-    imgPath: "images/img_mittig_kraft.png",
+    imgPath: "images/img_to_do.png",
     description:
       "Die To-Do-App ist eine einfache Aufgabenverwaltungsanwendung. Die grundlegenden CRUD-Operationen wurden implementiert. Es können Aufgaben erstellt, gelesen, aktualisiert und gelöscht werden. Des Weiteren wird der Lokale-Speicher des Browsers verwendet, um die Aufgaben zu speichern.",
     id: uniqid(),
@@ -38,7 +38,7 @@ const moreProjectsData = [
   {
     title: "Schiffe-Versenken-App",
     tools: "Javascript, html, Css, Webpack",
-    imgPath: "images/img_n_stäbe.png",
+    imgPath: "images/img_battleship.png",
     description:
       "Mit der Schiffe-Versenken-App kann man eine Runde Schiffe versenken gegen eine einfach KI spielen.",
     id: uniqid(),
