@@ -8,8 +8,7 @@ let aboutMeEng =
  * German version of text that is used in the hero section
  */
 let aboutMeGer =
-  "Hi, mein Name ist Jonas und ich bin ein in München lebender Tragwerksplaner / Statiker. Nach meinem Studium habe ich begonnen programmieren zu lernen. Mein Ziel war es, die nötigen Kenntnisse zu erwerben, um in der Lage zu sein, eigene Programme zu schreiben  beziehungsweise bestehende Programme mit neuer Funktionalität zu erweitern. Ich möchte mit meinen erworbenen Kentnisse die Digitalisierung der Baubranche aktiv mitgestalten.";
-
+  "Hallo, ich bin Jonas, ein Tragwerksplaner/Statiker aus München. Nach meinem Studium habe ich mich dem Erlernen der Programmierung gewidmet. Mein Ziel war es, die erforderlichen Fähigkeiten zu erwerben, um selbstständig Programme zu entwickeln und bestehende Software um neue Funktionen zu erweitern. Insbesondere interessiere ich mich für die Automatisierung der Planerstellung in der Ausführungsplanung. Mit meinem erlangten Wissen strebe ich an, aktiv zur Digitalisierung der Baubranche beizutragen.";
 /* let aboutMeGer2 =
   "Hi, ich heiße Jonas. Ich bin Tragwerksplaner und fasziniert von digitalen Technologien. Nach meinem Bauingeniuerstudium habe ich begonnen programmieren zu lernen. Mein Ziel ist es nervige Aufgaben zu automatisieren, um mehr Zeit für interessante Fragestellungen zu haben. Ich möchte neue Technologien mit bewährten Planungsprinzipien kombinieren um aktiver teil des digitalen Wandels sein zu können. ";
  */
