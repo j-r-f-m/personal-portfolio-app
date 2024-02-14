@@ -22,7 +22,7 @@ export function Contact() {
           </Link>
           <Link
             sx={{ mr: 1, ml: 1 }}
-            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            href="https://linkedin.com/in/jonas-mösch-9993152a3"
             color="inherit"
             target="_blank"
           >
